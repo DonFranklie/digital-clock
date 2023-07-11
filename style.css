@@ -4,7 +4,7 @@
     overflow: hidden;
     background: conic-gradient(from -.5turn at bottom right, deeppink, cyan, rebeccapurple);
     height:100vh;
-
+    transition:.6s ease all;
 }
 
 .container{
@@ -34,6 +34,7 @@
     margin: 0 10px;
     font-weight: bold;
     font-size: 5rem;
+    transition:.6s ease all;
 }
 
 @media(max-width:768px){
@@ -66,6 +67,7 @@
     top: 120px;
     right: -15px;
     padding: 2px;
+    cursor: pointer;
 }
 
 #dot{
@@ -75,7 +77,7 @@
     color: white;
     background: white;
     margin: auto;
-    transition:.3s ease all;
+    transition:.4s ease all;
     position: absolute;
     cursor: pointer;
     top: 2.45px;
